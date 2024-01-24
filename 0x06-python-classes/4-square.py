@@ -15,7 +15,7 @@ class Square:
 
     @property
     def size(self):
-        """ Fetchs the attribute that is used in the class """
+        """ Fetch attribute to be used in the class """
         return self.__size
 
     @size.setter
