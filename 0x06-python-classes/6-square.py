@@ -43,7 +43,7 @@ class Square:
         elif type(value[1]) is not int or value[1] < 0:
             raise TypeError("position must be a tuple of 2 positive integers")
         else:
-            self.__position = value     # tuple contains 2 positive integers
+            self.__position = value     # this tuple contains 2 positive integers
 
     def area(self):
         """ Computes area of a square """
@@ -62,7 +62,7 @@ class Square:
 
                 j = 0
                 while j < pos1:
-                    print(" ", end='')  # replace position with space
+                    print(" ", end='')  # replace this position with a space
                     j += 1
 
                 number = 0
